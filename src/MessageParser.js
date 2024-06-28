@@ -5,7 +5,15 @@ class MessageParser {
 	}
 
 	parse(message) {
-		console.log(message);
+		const lowercaseMessage = message.toLowerCase();
+
+		if (lowercaseMessage.includes('hello world')) {
+			this.actionProvider.helloWorldHandler();
+		}
+
+		if (lowercaseMessage.includes('todos')) {
+			this.actionProvider.todosHandler();
+		}
 	}
 }
 

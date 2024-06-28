@@ -1,0 +1,16 @@
+.octa-bot-avatar {
+	height: 35px;
+	flex-basis: 35px;
+	flex-grow: 0;
+	flex-shrink: 0;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	font-size: 0.8rem;
+	background-color: purple;
+	margin-right: 15px;
+}

@@ -1,7 +1,7 @@
 import './App.css';
 import { Chatbot } from 'react-chatbot-kit';
 
-import './assets/styles.css';
+import './App.css';
 
 import config from './configs/config';
 import MessageParser from './MessageParser';
